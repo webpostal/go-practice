@@ -20,7 +20,6 @@ func main() {
 
 	// Go will complety the semicolon at the end of each line, but
 	// we can get two statements in on line using ;
-	fmt.Println("First one")
-	fmt.Println("Second one")
+	fmt.Println("First one");fmt.Println("Second one")
 
 }
