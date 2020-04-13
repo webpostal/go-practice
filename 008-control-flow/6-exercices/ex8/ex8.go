@@ -6,6 +6,7 @@ func main() {
 	//Switch statement with no switch expression specified
 
 	switch {
+
 	case (2 == 1):
 		fmt.Println("Should not print")
 	case false:
