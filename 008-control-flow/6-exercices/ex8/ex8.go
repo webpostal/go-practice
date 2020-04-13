@@ -15,7 +15,6 @@ func main() {
 		fallthrough
 
 	default:
-
 		fmt.Println("This default value should print because of the fallthrough statement ")
 	}
 
