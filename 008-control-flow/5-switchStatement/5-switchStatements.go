@@ -19,7 +19,7 @@ func main() {
 		fmt.Println("Camila will not Print")
 	case "Georgina":
 		fmt.Println("Georgina will not Print")
-	case "Rossina":
+	case "Julianna", "Rossina":
 		fmt.Println("Rossina will Print")
 	default:
 		fmt.Println("Default value")
@@ -29,9 +29,9 @@ func main() {
 	switch x {
 
 	case "Mountain":
-		fmt.Println("Camila will not Print")
-	case "River":
-		fmt.Println("Georgina will not Print")
+		fmt.Println("Mountain will not Print")
+	case "River", "Kwai":
+		fmt.Println("The Bridge on the River Kwai")
 	case "Lake":
 		fmt.Println("Rossina will Print")
 	default:
