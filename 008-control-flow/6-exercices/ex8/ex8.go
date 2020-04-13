@@ -3,26 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	x := 1000
-	y := 100
-	if x < y {
-		fmt.Printf("%v is lesser than %v\n", x, y)
-	} else if x > y {
-		fmt.Printf("%v is greater than %v\n", x, y)
-	} else {
-		fmt.Printf("%v is equal to %v\n", x, y)
-	}
+	//Switch statement with no switch expression specified
 
-	// Another example
+	switch {
+	case (2 == 1):
+		fmt.Println("Should not print")
+	case false:
+		fmt.Println("Should not print erither!")
+	case true:
+		fmt.Println("This one should print")
+		fallthrough
 
-	w := "Marco Polo"
+	default:
 
-	if w == "Marcopolo" {
-		fmt.Println(w)
-	} else if w == "Cinderella" {
-		fmt.Printf("You got it. It's %v\n", w)
-	} else {
-		fmt.Println("none of the above!\n")
+		fmt.Println("This default value should print because of the fallthrough statement ")
 	}
 
 }
