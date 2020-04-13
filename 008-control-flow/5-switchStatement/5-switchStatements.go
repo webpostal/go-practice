@@ -25,4 +25,17 @@ func main() {
 		fmt.Println("Default value")
 	}
 
+	x := "River"
+	switch x {
+
+	case "Mountain":
+		fmt.Println("Camila will not Print")
+	case "River":
+		fmt.Println("Georgina will not Print")
+	case "Lake":
+		fmt.Println("Rossina will Print")
+	default:
+		fmt.Println("Default value")
+	}
+
 }
