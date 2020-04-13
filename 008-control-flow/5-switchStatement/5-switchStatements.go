@@ -25,7 +25,7 @@ func main() {
 		fmt.Println("Default value")
 	}
 
-	x := "River"
+	x := "Kwai"
 	switch x {
 
 	case "Mountain":
