@@ -3,18 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	switch {
-	case (2 == 1):
-		fmt.Println("Should not print")
-	case false:
-		fmt.Println("Should not print erither!")
-	case true:
-		fmt.Println("This one should print")
-		fallthrough
+
+	favSport := "swimming"
+
+	switch favSport {
+
+	case "hiking":
+		fmt.Println("Prepare your hiking tools")
+	case "surfing":
+		fmt.Println("Surfing is a great sport!")
+	case "swimming":
+		fmt.Println("Please try not to drown!")
 
 	default:
-
-		fmt.Println("This default value should print because of the fallthrough statement ")
+		fmt.Println("So what's your favorite sport then?")
 	}
 
 }
