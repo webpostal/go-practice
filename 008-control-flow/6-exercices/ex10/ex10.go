@@ -3,26 +3,16 @@ package main
 import "fmt"
 
 func main() {
-	x := 1000
-	y := 100
-	if x < y {
-		fmt.Printf("%v is lesser than %v\n", x, y)
-	} else if x > y {
-		fmt.Printf("%v is greater than %v\n", x, y)
-	} else {
-		fmt.Printf("%v is equal to %v\n", x, y)
-	}
 
-	// Another example
+	fmt.Printf("true && true is %v\n", true && true)
+	fmt.Printf("true && false is %v\n", true && false)
+	fmt.Printf("false && true is %v\n", false && true)
+	fmt.Printf("false && false is %v\n\n", false && false)
 
-	w := "Marco Polo"
+	fmt.Printf("true || true is %v\n", true || true)
+	fmt.Printf("true || false is %v\n", true || false)
+	fmt.Printf("false || true is %v\n", false || true)
+	fmt.Printf("false || false is %v\n\n", false || false)
 
-	if w == "Marcopolo" {
-		fmt.Println(w)
-	} else if w == "Cinderella" {
-		fmt.Printf("You got it. It's %v\n", w)
-	} else {
-		fmt.Println("none of the above!\n")
-	}
-
+	fmt.Println(!false && !false)
 }
