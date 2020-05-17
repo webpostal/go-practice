@@ -8,7 +8,8 @@ func main() {
 	fmt.Println(mj)
 	lb := []string{"Larry", "Bird", "Celtics", "Power forward"}
 	fmt.Println(lb)
+	sp := []string{"Scotty", "Pippen", "Bulls", "Small Forward"}
 
-	pl := [][]string{mj, lb}
-	fmt.Println(pl)
+	lineup := [][]string{mj, lb, sp}
+	fmt.Println(lineup)
 }
