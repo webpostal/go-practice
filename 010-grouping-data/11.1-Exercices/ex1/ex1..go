@@ -14,6 +14,7 @@ func main() {
 	fmt.Printf("The Array 'm' is of type: %T\n\n", m)
 
 	// Default:Zero value array
+
 	t := [5]int{}
 	fmt.Println(t)
 
