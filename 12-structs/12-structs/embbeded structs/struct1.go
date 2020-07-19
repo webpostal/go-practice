@@ -2,13 +2,14 @@ package main
 
 import "fmt"
 
+type person struct {
+	firstname string
+	lastname  string
+	age       int
+	height    float64
+}
+
 func main() {
-	type person struct {
-		firstname string
-		lastname  string
-		age       int
-		height    float64
-	}
 
 	type secretAgent struct {
 		person
@@ -25,6 +26,7 @@ func main() {
 	}
 
 	p2 := person{
+
 		firstname: "Nelson",
 		lastname:  "Mandela",
 		age:       95,
